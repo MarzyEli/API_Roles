@@ -17,7 +17,7 @@ namespace Business
         /// Obtiene todos los registros de RolPermiso activos
         /// </summary>
         /// <returns>Devuelve una lista de objetos de tipo RolPermiso</returns>
-        Task<IList<RolPermiso>> ObtenerRolPermisosAsync();
+        Task<IList<RolPermisoCustom>> ObtenerRolPermisosAsync();
 
         /// <summary>
         /// Obtiene RolPermiso por Id

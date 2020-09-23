@@ -64,16 +64,18 @@ namespace Business
         /// Obtiene todos los registros de RolPermiso 
         /// </summary>
         /// <returns>Devuelve una lista de objetos de tipo RolPermiso</returns>
-        public async Task<IList<RolPermiso>> ObtenerRolPermisosAsync()
+        public async Task<IList<RolPermisoCustom>> ObtenerRolPermisosAsync()
         {
-            Task<List<RolPermiso>> listaRolPermiso;
+            Task<List<RolPermisoCustom>> listaRolPermiso;
             try
             {
-                listaRolPermiso = context.TbRolPermiso.Select(x => new RolPermiso
+                listaRolPermiso = context.TbRolPermiso.Select(x => new RolPermisoCustom
                 {
                     IdRolPermiso = x.PKIdRolPermiso,
                     IdRol = x.FKIdRol,
+                    Rol = x.FKIdRolNavigation.Descripcion,
                     IdPermiso = x.FKIdPermiso,
+                    Permiso = x.FKIdPermisoNavigation.Descripcion,
                     Activo = x.Activo
                 }).OrderBy(x => x.IdRolPermiso).ToListAsync();
             }

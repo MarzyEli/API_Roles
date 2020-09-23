@@ -10,3 +10,15 @@ C:\Users\pnajera\source\repos\Curso Agosto Git\API_Roles_BD\Models\obj\Release\n
 C:\Users\pnajera\source\repos\Curso Agosto Git\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.dll
 C:\Users\pnajera\source\repos\Curso Agosto Git\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.pdb
 C:\Users\pnajera\source\repos\Curso Agosto Git\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.genruntimeconfig.cache
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\bin\Release\netcoreapp3.1\Models.deps.json
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\bin\Release\netcoreapp3.1\Models.runtimeconfig.json
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\bin\Release\netcoreapp3.1\Models.runtimeconfig.dev.json
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\bin\Release\netcoreapp3.1\Models.dll
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\bin\Release\netcoreapp3.1\Models.pdb
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.csprojAssemblyReference.cache
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.AssemblyInfo.cs
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.dll
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.pdb
+E:\CODIGO\APIs CURSO Git\Roles\API_Roles\API_Roles_BD\Models\obj\Release\netcoreapp3.1\Models.genruntimeconfig.cache

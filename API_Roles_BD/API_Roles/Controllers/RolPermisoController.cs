@@ -52,12 +52,12 @@ namespace API_Roles.Controllers
         /// </summary>
         /// <returns>Devuelve una lista de objetos de tipo RolPermiso</returns>
         [HttpGet("obtenerRolPermisos")]
-        public async Task<ActionResult<IList<RolPermiso>>> ObtenerRolPermisosAsync()
+        public async Task<ActionResult<IList<RolPermisoCustom>>> ObtenerRolPermisosAsync()
         {
             ObjectResult valRet;
             _logger.LogInformation("ObtenerRolPermisosAsync: INICIO");
 
-            IList<RolPermiso> listaRolPermisos = null;
+            IList<RolPermisoCustom> listaRolPermisos = null;
             try
             {
                 listaRolPermisos = await _bsRolPermiso.ObtenerRolPermisosAsync();
